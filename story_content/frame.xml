@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns01001100101" textdirection="rtl" device="true" fontscale="100" kbshortcuts="false" skip_nav_enabled="false" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns01001000101" textdirection="rtl" device="true" fontscale="100" kbshortcuts="false" skip_nav_enabled="false" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns01000000101" font="Open Sans" controllayout="npnxnanbsnfns01000000101" colorscheme="npnxnanbnsnfns01001100101" string_table="npnxnanbnsnfns01001100101" />
-    <layout name="pxabnsnfns01000000101" font="Open Sans" controllayout="pxabnsnfns01000000101" colorscheme="npnxnanbnsnfns01001100101" string_table="npnxnanbnsnfns01001100101" />
-    <layout name="npxnabnsnfns01000000101" font="Open Sans" controllayout="npxnabnsnfns01000000101" colorscheme="npnxnanbnsnfns01001100101" string_table="npnxnanbnsnfns01001100101" />
-    <layout name="npnxnanbnsnfns01000000101" font="Open Sans" controllayout="npnxnanbnsnfns01000000101" colorscheme="npnxnanbnsnfns01001100101" string_table="npnxnanbnsnfns01001100101" />
-    <layout name="pxabnsnfns01000000100" font="Open Sans" controllayout="pxabnsnfns01000000100" colorscheme="npnxnanbnsnfns01001100101" string_table="npnxnanbnsnfns01001100101" />
-    <layout name="npnxnanbnsnfns01001100101" font="Open Sans" controllayout="npnxnanbnsnfns01001100101" colorscheme="npnxnanbnsnfns01001100101" string_table="npnxnanbnsnfns01001100101" />
+    <layout name="npnxnanbsnfns01001000101" font="Open Sans" controllayout="npnxnanbsnfns01001000101" colorscheme="npnxnanbnsnfns01001000101" string_table="npnxnanbnsnfns01001000101" />
+    <layout name="pxabnsnfns01001000101" font="Open Sans" controllayout="pxabnsnfns01001000101" colorscheme="npnxnanbnsnfns01001000101" string_table="npnxnanbnsnfns01001000101" />
+    <layout name="npxnabnsnfns01001000101" font="Open Sans" controllayout="npxnabnsnfns01001000101" colorscheme="npnxnanbnsnfns01001000101" string_table="npnxnanbnsnfns01001000101" />
+    <layout name="npnxnanbnsnfns01001000101" font="Open Sans" controllayout="npnxnanbnsnfns01001000101" colorscheme="npnxnanbnsnfns01001000101" string_table="npnxnanbnsnfns01001000101" />
+    <layout name="pxabnsnfns01001000100" font="Open Sans" controllayout="pxabnsnfns01001000100" colorscheme="npnxnanbnsnfns01001000101" string_table="npnxnanbnsnfns01001000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -14,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="מצגת נהלי אלאור מוגבלויות" />
+              <option name="title_text" value="מצגת נהלי מוגבלויות 1- חזון, קוד אתי, חוק חסרי ישע, אסתטיקה טיפולית" />
             </options>
           </option>
           <option name="logo_enabled" value="true">
@@ -25,7 +24,7 @@
                   <property name="height" value="103" />
                 </properties>
               </option>
-              <option name="html5_logo_url" value="mobile/5ZXcMxQ7Wnr.png" />
+              <option name="html5_logo_url" value="mobile/5Vg6jJZGQSG.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -36,7 +35,7 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="resources" value="false" group="linkright" />
               <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
@@ -98,7 +97,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns01000000101">
+    <control_layout name="npnxnanbsnfns01001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -114,14 +113,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns01000000101">
+    <control_layout name="pxabnsnfns01001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -135,98 +134,6 @@
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="npxnabnsnfns01000000101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="true" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="npnxnanbnsnfns01000000101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="true" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="pxabnsnfns01000000100">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="true" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="false" />
-    </control_layout>
-    <control_layout name="npnxnanbnsnfns01001100101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="true" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -236,9 +143,78 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
+    <control_layout name="npxnabnsnfns01001000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns01001000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns01001000100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns01001100101">
+    <colorscheme name="npnxnanbnsnfns01001000101">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1166,7 +1142,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns01001100101">
+    <string_table name="npnxnanbnsnfns01001000101">
       <string id="acc_active">פעיל</string>
       <string id="check_include">סמן כדי לכלול</string>
       <string id="clear">נקה וחזור לתפריט</string>
@@ -1241,44 +1217,24 @@
             <slidelink slideid="_player.6Q4ohMVVlpy.6EW5brhYkRd" displaytext="מבוא 1" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6jjYPwMSUbM" displaytext="חזון" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6TvYorZDFoI" displaytext="קוד אתי" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6SMud1KUbJk" displaytext="כבוד" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6WS4L61g3Pk" displaytext="מתוך כבוד והוגנות כלפי האנשים שבאחריותינו נקפיד על:  קיימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6mDd1y65W9d" displaytext="חוק חסרי ישע מתייחס:" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6Qy8bMtAqqq" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6RFjma19WHN" displaytext="אסתטיקה טיפולית 1" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6k1cljIqzEX" displaytext="אסתטיקה טיפולית 2" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5jfGC77Ym8W" displaytext="אאסתטיקה טיפולית 3" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5vHYl2WURkr" displaytext="אסתטיקה טיפולית 4" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5ywdzE6zhSs" displaytext="יושרה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5gOwmS9jTNH" displaytext="נוהל החלפת משמרת" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6m942MsNEST" displaytext="סיכום המשמרת ברפורט היומי יכלול: קיימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6j9aELnGYsU" displaytext="מדריך יוכל לעזוב את המשמרת רק לאחר-" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5f07vPvumrb" displaytext="ארוע חריג המשך" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6P02wxacQs0" displaytext="תוכנית מוגנות" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5kLi01Wdfh7" displaytext="תוכנית אישית" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6rWgXG6Mcqr" displaytext="חוק חסרי ישע" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6HgKrjkVHQE" displaytext="ארוע חריג" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5zshEBbGusO" displaytext="נוהל תרופות" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5zYtkw95KPM" displaytext="יש לדווח במידי למנהל ההוסטל כאשר: קיימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5n3ShSKfFj9" displaytext="הכנת התרופות בקלמר תבוצע על- ידי: " expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6VKgMkCsrz5" displaytext="במידה והדייר הקיא בשעה שלאחר החלוקה " expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6Q3H2vZHz6U" displaytext="סמן את התשבות הנכונות קיימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5bh515c0YC4" displaytext="סמן את התשובות הנכונות קיימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6FhEKNBeNkc" displaytext="נוהל לילה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5Vn9qE6pe1V" displaytext="תפקידי מדריך הלילה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.63v0BM3gRRZ" displaytext="תודה שהשתתפת! נשמח למשוב" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.65X8P06pQC2" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.621hCfzZjwx" displaytext="אסתטיקה טיפולית במהלך הטיפול באנשים שבאחריותינו כוללת: קיימת יותר מתשובה אחת נכונה-" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5pOgoaM5kgM" displaytext="משוב- לומדת נהלי אלאור באיזה מידה תרמה לך הלומדה מבחינה מקצועית להיכרות עם נהלי הליבה? " expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5oYU1kui5eu" displaytext="בתוכנית המוגנות של הדייר מתוארים:" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5bnzx0lzlOk" displaytext="כאשר ממלאים טופס ארוע חריג יש להקפיד על:" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.61LuDdeWK66" displaytext="ארוע חריג כולל: קיימת יותר מתשובה אחת" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.61lMhRwzwca" displaytext="במידה והיה לך יסוד סביר לחשוב כי חלה עבירה בחסר ישע חובה עליך-" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='right'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <resource_data description="" />
   <transcript_data />
   <glossary_data />
 </bwFrame>
